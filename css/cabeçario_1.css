@@ -4,6 +4,7 @@
    display: flex;
    justify-content: space-between;
    box-shadow: 0 0 10px #666;
+   padding: 10px;
 }
 #img{
   width: 150px;
@@ -28,4 +29,7 @@
 .nav ul li a{
     text-decoration: none;
     padding: auto;
+}
+.header{
+    width: 100%;
 }
