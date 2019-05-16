@@ -1,0 +1,35 @@
+.nav{
+    justify-content: space-between;
+    box-shadow: 0 0 10px #666;
+    display: flex;
+    padding: 17px;
+}
+.img{
+    padding:4px;
+    width: 115px;
+    height: 60px;
+    position: relative;
+}
+.social img{
+    padding: 14px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+}
+.nav ul{
+    display: inline-block;
+}
+.nav ul li{
+    list-style-type: none;
+    padding: auto;
+    display: inline-flex;
+
+}
+.nav ul li a{
+    text-align: left;
+    text-decoration: none;
+    padding: 8px;
+}
+.header{
+    width: 100%;
+}
