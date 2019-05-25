@@ -1,5 +1,9 @@
 .cabecalho{
+<<<<<<< HEAD
     width: 96%;
+=======
+    width: 97%;
+>>>>>>> c1d6d45d606f6a95525e65070d8bfb7938a5c1ee
     height: auto;
     box-shadow: 0px 0px 15px -5px;
     display: flex;
@@ -10,7 +14,11 @@
     margin: 14px;
 }
 .logo{
+<<<<<<< HEAD
     width: 90px;
+=======
+    width: 80px;
+>>>>>>> c1d6d45d606f6a95525e65070d8bfb7938a5c1ee
     height: 40px;
 }
 .formulario{
