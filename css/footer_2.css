@@ -1,0 +1,135 @@
+body{
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.cor{
+    color: #207dff;
+}
+
+.formato{
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 3px 0px;
+    color: #207dff;
+}
+body{
+    background-color: #fff;
+}
+.rod{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat';
+    box-shadow: 0px 0px 10px -7px #333;
+    background-color: #eaf5ff;
+    color: #207dff;
+}
+.box1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    
+}
+.subs{
+    width:  25%;
+    padding: 40PX 10PX;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.subs input{
+    width: 180px;
+    padding: 10px;
+    border: 1px solid 	#1E90FF;
+    margin-right: 20px;
+    margin-top: 8px;
+    color: 	#1E90FF;    
+}
+.input-email{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.subs button{
+    width:  100px;
+    padding: 10px;
+    background-color: 	#1E90FF;
+    color: #fff;
+    margin-top: 8px;
+    
+}
+.subs a{
+    
+    padding-top: 20px;
+}
+.dados{
+    padding: 40PX 10PX;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.dados ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.dados li{
+    list-style: none;
+    margin-top: 10px;
+}
+.social{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #207dff;
+    color: #fff;
+    align-items: center;
+}
+.social i{
+    color: #fff;
+    font-size: 2em;
+    padding: 0 10px;
+}
+@media(max-width:700px){
+    .rod{
+    width: 100%;
+    display: flex;
+    font-family: 'Montserrat';
+    }
+    .box1{
+    width: 100%;
+    flex-direction: column;
+    }
+    
+    .inputs-email{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .subs button{
+        margin-top: 10px;
+    }
+    
+    .subs, .dados{
+        width: 100%;
+        margin: a auto;
+        flex-direction: column;
+    }
+    
+    .dados ul{
+        padding-top: 20px;
+    }
+}

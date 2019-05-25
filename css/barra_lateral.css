@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.corpo{
+    box-sizing: border-box;
+    display: inline;
+}
+.usuario{
+    width: 400px;
+    height: 180px;
+    background-color: rgb(102, 100, 100);
+    padding: 20px;
+}
+ .usuario p{
+    position: relative;
+    font-size: 2ch;
+    margin-top: 45px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.navegacao{
+    display: flex;
+    width: 436px;
+    height: 550px;
+    padding: 2px;
+    background-color: white;
+}
+.navegacao ul{
+    padding: 0px;
+    margin: 0px;
+}
+.navegacao ul li{
+    padding: 15px;
+    list-style-type: none;
+    
+}
+.navegacao ul li a{
+    text-decoration: none;
+    color: #666;
+}
+.navegacao span{
+    position: relative;
+    padding: 0px 40px;
+    font-weight: bold;
+}
+.foto{
+    font-size: 5.0em;
+}
