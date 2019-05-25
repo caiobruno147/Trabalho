@@ -1,48 +1,58 @@
-.header{
-    width: 100%;
-}
-.nav{
-    box-shadow: 0 0 10px #666;
-    border: solid white;
+.cabecalho{
+    width: 96%;
+    height: auto;
+    box-shadow: 0px 0px 15px -5px;
     display: flex;
-    padding: 10px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 18px;
+    align-items: center;
+    margin: 14px;
 }
-
-.nav ul{
-display: inline-block;
-padding: 4px;
+.logo{
+    width: 90px;
+    height: 40px;
 }
-.nav ul li{
-display: inline-block;
-list-style-type: none;
-padding: 3px;
-}
-.nav ul li a{
-text-decoration: none;
-padding: 4px;
-}
-.img{
-   padding: 14px;
-   width: 140px;
-   height: 45; 
-}
-.form{
-    position: relative;
-    margin-left: 60px;
-    padding: 10px;
+.formulario{
     width: auto;
-    display: flex;
 }
-.form input{
+.barra-pesquisa{
     height: 30px;
-    width: 400;
+    width: 300 auto;
+    text-align: center;
+    border-color:black; 
 }
-.form button{
+.button{
     margin-left: -5px;
     height: 30px;
-    width: 90px;
+    width: 70px;
     background-color: black;
     color: #e0e0e0;
     border-color: black;
 } 
+.navegacao{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+.navegacao ul li{
+    display: inline;
+    margin-right: 3px;
+}
+.navegacao ul li a{
+    text-decoration: none;
+    color: #666;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@media(max-width:700px){
+   .cabecalho{
+       display: block;
+       width: auto;
+   }
+   .barra-pesquisa{
+       width: auto;
+   }
+}
